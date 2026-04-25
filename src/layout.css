@@ -1,0 +1,95 @@
+.main-content{
+
+    display:flex;
+    justify-content:center;
+  
+    padding-top:40px;
+  
+    transition: all .35s ease;
+  
+  }
+  
+  
+  /* container */
+  
+  .page-container{
+  
+    width:100%;
+    max-width:1150px;
+  
+    transition: all .35s ease;
+  
+  }
+  
+  
+  /* sidebar OPEN */
+  
+  body.sidebar-open .page-container{
+  
+    margin-right:260px;   /* sidebar width */
+  
+  }
+  
+  
+  /* sidebar CLOSED */
+  
+  body.sidebar-closed .page-container{
+  
+    margin-right:55px;    /* mini bar width */
+  
+  }
+  :root{
+
+  --sidebar-width:280px;
+
+}
+
+
+/* when sidebar closed */
+
+.sidebar-closed{
+
+  --sidebar-width:80px;
+
+}
+
+
+.content{
+
+  padding:40px;
+
+  transition:0.3s;
+
+}
+
+
+/* content spacing */
+
+.sidebar-open{
+
+  margin-right:280px;
+
+}
+
+
+.sidebar-closed{
+
+  margin-right:80px;
+
+}
+
+
+/* when lesson steps visible */
+
+.withSteps.sidebar-open{
+
+  margin-right:460px;
+
+}
+
+
+.withSteps.sidebar-closed{
+
+  margin-right:260px;
+
+}

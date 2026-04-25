@@ -1,0 +1,104 @@
+.lessonSteps{
+
+  direction: rtl; /* important */
+
+  position: fixed;
+
+  top: 30px;
+
+  right: calc(var(--sidebar-width) + 40px);
+
+  width: 180px;
+
+  z-index: 1000;
+
+}
+
+
+/* step item */
+
+.stepItem{
+
+  display: flex;
+
+  flex-direction: row-reverse; /* circle goes right */
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 24px;
+
+  padding: 10px 14px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  color: #666;
+
+  font-size: 15px;
+
+  transition: 0.25s;
+
+}
+
+
+/* text */
+
+.stepTitle{
+
+  margin-right: 10px;
+
+}
+
+
+/* number circle */
+
+.stepCircle{
+
+  width: 30px;
+
+  height: 30px;
+
+  border-radius: 50%;
+
+  border: 2px solid #bbb;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: white;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+}
+
+
+/* active */
+
+.stepItem.active{
+
+  background: #dbe7f1;
+
+  font-weight: 600;
+
+  color: black;
+
+}
+
+
+/* active number */
+
+.stepItem.active .stepCircle{
+
+  border-color: #2f80ed;
+
+  color: #2f80ed;
+
+}

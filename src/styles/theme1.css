@@ -1,0 +1,334 @@
+/* page background */
+.content-inner{
+  display:flex;
+  justify-content:center;
+  padding:40px 20px;
+}
+
+
+/* main lesson container */
+.lesson-page{
+
+  direction: rtl;
+
+  max-width: 900px;
+
+  width:100%;
+
+  background:white;
+
+  padding:40px 20px;
+
+  border-radius:12px;
+
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+
+  line-height:2;
+
+  font-size:18px;
+
+}
+
+
+/* title */
+.lesson-title{
+
+  font-size:34px;
+
+  font-weight:bold;
+
+  margin-bottom:5px;
+
+  text-align:right;
+
+}
+
+
+/* reading time */
+.reading-time{
+
+  color:#6b7c8f;
+
+  font-size:14px;
+
+  margin-bottom:25px;
+
+  text-align:right;
+
+}
+
+
+/* paragraphs */
+.lesson-page p{
+
+  margin-bottom:20px;
+
+  color:#333;
+
+}
+
+
+/* main image */
+.lesson-image{
+
+  width:100%;
+
+  max-width:650px;
+
+  display:block;
+
+  margin:30px auto;
+
+  border-radius:10px;
+
+}
+
+
+/* black icons box */
+.icons-box{
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  gap:40px;
+
+  background:#000;
+
+  padding:35px;
+
+  border-radius:15px;
+
+  margin:35px 0;
+
+}
+
+
+/* icon item */
+.icon-item{
+
+  text-align:center;
+
+  color:white;
+
+}
+
+
+/* icon image */
+.icon-item img{
+
+  width:70px;
+
+  height:70px;
+
+  object-fit:contain;
+
+  margin-bottom:10px;
+
+}
+.signs-container{
+display:flex;
+flex-direction:column;
+
+/* space between cards */
+gap:18px;   /* change 18px → 12px or 25px as you like */
+
+margin-top:25px;
+}
+.sign-card{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+background:#f5f5f5;
+
+border:2px solid #222;
+border-radius:20px;
+
+padding:18px 22px;
+
+box-shadow:0 6px 12px rgba(0,0,0,0.15);
+
+gap:20px;
+
+/* IMPORTANT */
+flex-direction:row-reverse; /* puts image at right */
+
+}
+
+
+/* TEXT */
+.sign-text{
+
+flex:1;
+
+font-size:20px;
+
+line-height:1.8;
+
+text-align:right;
+
+padding-left:20px;
+
+}
+
+
+/* vertical bar */
+.sign-image-box{
+
+border-left:2px solid #222;
+
+padding-left:20px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+
+
+/* IMAGE */
+.sign-image{
+
+width:85px;
+height:85px;
+
+object-fit:contain;
+
+}
+/* number circle */
+.icon-item span{
+
+  background:#1e3a5f;
+
+  padding:8px 14px;
+
+  border-radius:50%;
+
+  font-size:14px;
+
+}
+.lesson-question{
+    background:#f3f3f3;
+    padding:30px;
+    border-radius:20px;
+    margin:40px 0;
+}
+.lesson-answer{
+    margin:30px 0;
+}
+/* blue info box */
+.info-box{
+
+  background:#e8f0f7;
+
+  padding:20px;
+
+  border-radius:10px;
+
+  margin:25px 0;
+
+}
+
+
+/* warning grid */
+.warning-box{
+
+  display:grid;
+
+  grid-template-columns:repeat(2,1fr);
+
+  gap:30px;
+
+  background:#fafafa;
+
+  padding:30px;
+
+  border-radius:12px;
+
+  margin:30px 0;
+
+}
+
+
+/* warning item */
+.warning-item{
+
+  text-align:center;
+
+}
+
+
+/* warning icons */
+.warning-item img{
+
+  width:65px;
+
+  margin-bottom:10px;
+
+}
+
+
+/* danger box */
+.danger-box{
+
+  background:#f4dddd;
+
+  padding:25px;
+
+  border-radius:12px;
+
+  margin:35px 0;
+
+  border-right:5px solid #e26b6b;
+
+}
+
+
+/* headings */
+h2, h3{
+
+  margin-top:35px;
+
+  margin-bottom:15px;
+
+}
+
+
+/* lists */
+ul, ol{
+
+  padding-right:20px;
+
+}
+
+
+/* mobile responsive */
+@media(max-width:768px){
+
+  .lesson-page{
+
+    padding:25px;
+
+    font-size:16px;
+
+  }
+
+  .warning-box{
+
+    grid-template-columns:1fr;
+
+  }
+
+  .icons-box{
+
+    flex-direction:column;
+
+    gap:25px;
+
+  }
+
+}

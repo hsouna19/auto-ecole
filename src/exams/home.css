@@ -1,0 +1,88 @@
+
+.exams-page {
+  padding: 50px;
+ 
+  min-height: 100vh;
+}
+
+.exam-card {
+  background: #f8f8f8;
+  border: 2px solid #d6d6d6;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.exam-left {
+  display: flex;
+  gap: 10px;
+}
+
+.exam-btn {
+  background: #b8bde0;
+  color: black;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 28px;
+}
+
+.exam-center {
+  text-align: center;
+  flex: 1;
+}
+
+.exam-center h2 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.exam-tags {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.exam-tags span {
+  background: #c8dfba;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+
+.success-icon {
+  color: green;
+  font-size: 55px;
+}
+
+.fail-icon {
+  color: #e53935;
+  font-size: 55px;
+}
+
+@media (max-width: 768px) {
+  .exam-card {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .exam-left {
+    order: 2;
+  }
+
+  .exam-center h2 {
+    font-size: 28px;
+  }
+
+  .exam-btn,
+  .exam-tags span {
+    font-size: 18px;
+  }
+}
