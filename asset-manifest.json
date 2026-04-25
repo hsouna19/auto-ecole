@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/auto-ecole/static/css/main.e21a8b59.css",
-    "main.js": "/auto-ecole/static/js/main.43699ff3.js",
-    "index.html": "/auto-ecole/index.html",
-    "main.e21a8b59.css.map": "/auto-ecole/static/css/main.e21a8b59.css.map",
-    "main.43699ff3.js.map": "/auto-ecole/static/js/main.43699ff3.js.map"
+    "main.css": "/auto--cole/static/css/main.e21a8b59.css",
+    "main.js": "/auto--cole/static/js/main.43699ff3.js",
+    "index.html": "/auto--cole/index.html",
+    "main.e21a8b59.css.map": "/auto--cole/static/css/main.e21a8b59.css.map",
+    "main.43699ff3.js.map": "/auto--cole/static/js/main.43699ff3.js.map"
   },
   "entrypoints": [
     "static/css/main.e21a8b59.css",
