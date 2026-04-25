@@ -6,7 +6,7 @@ const themes = [
 {
 id: 1,
 title: "السائق والعربة",
-image: "/images/theme1.jpg",
+image: process.env.PUBLIC_URL + "/images/theme1.jpg",
 color: "#19b5c9",
 path: "/theme1"
 },
@@ -14,7 +14,7 @@ path: "/theme1"
 {
 id: 2,
 title: "إشارات وعلامات الطريق",
-image: "/images/theme2.jpg",
+image: process.env.PUBLIC_URL + "/images/theme2.jpg",
 color: "#6c63ff",
 path: "/theme2"
 },
@@ -22,7 +22,7 @@ path: "/theme2"
 {
 id: 3,
 title: "الوقوف والتوقف",
-image: "/images/theme3.jpg",
+image: process.env.PUBLIC_URL + "/images/theme3.jpg",
 color: "#52b788",
 path: "/theme3"
 },
@@ -30,7 +30,7 @@ path: "/theme3"
 {
 id: 4,
 title: "المقاطعة والمجاوزة",
-image: "/images/theme4.jpg",
+image: process.env.PUBLIC_URL + "/images/theme4.jpg",
 color: "#2a9d8f",
 path: "/theme4"
 },
@@ -38,7 +38,7 @@ path: "/theme4"
 {
 id: 5,
 title: "أولوية المرور",
-image: "/images/theme5.jpg",
+image: process.env.PUBLIC_URL + "/images/theme5.jpg",
 color: "#4361ee",
 path: "/theme5"
 },
@@ -46,7 +46,7 @@ path: "/theme5"
 {
 id: 6,
 title: "قواعد الجولان",
-image: "/images/theme6.jpg",
+image: process.env.PUBLIC_URL + "/images/theme6.jpg",
 color: "#f15bb5",
 path: "/theme6"
 },
@@ -54,7 +54,7 @@ path: "/theme6"
 {
 id: 7,
 title: "جرائم الجولان",
-image: "/images/theme7.jpg",
+image: process.env.PUBLIC_URL + "/images/theme7.jpg",
 color: "#4895ef",
 path: "/theme7"
 },
@@ -62,7 +62,7 @@ path: "/theme7"
 {
 id: 8,
 title: "الإسعافات الأولية",
-image: "/images/theme8.jpg",
+image: process.env.PUBLIC_URL + "/images/theme8.jpg",
 color: "#f94144",
 path: "/theme8"
 },
@@ -70,7 +70,7 @@ path: "/theme8"
 {
 id: 9,
 title: "الصيانة الوقائية والتحكم في الطاقة",
-image: "/images/theme9.jpg",
+image: process.env.PUBLIC_URL + "/images/theme9.jpg",
 color: "#6c757d",
 path: "/theme9"
 },
@@ -78,7 +78,7 @@ path: "/theme9"
 {
 id: 10,
 title: "نقل المواد الخطرة عبر الطرقات",
-image: "/images/theme10.jpg",
+image: process.env.PUBLIC_URL + "/images/theme10.jpg",
 color: "#f9a826",
 path: "/theme10"
 }
